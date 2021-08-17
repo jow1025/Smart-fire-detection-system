@@ -10,11 +10,9 @@ import cv2
 import numpy as np
 import datetime
 from time import time
-
-#api키는 FCM을 위해서만 사용
-#토큰 값은 추후 안드로이드 앱으로 FCM을 날리기 위해 사용(토큰 값은 안드로이드 앱의 로그로 찍어보고 그 값을 아래에 설정)
+#api키는 FCM을 위해 파이어베이스에서 얻은 API키 이용
 APIKEY="AAAAalMeKts:APA91bEiB12GcGeo5W0MmzOjjmcDiR9LwrVgUxmspbWpI4eZz0LjuFIuTVxnfCbqd_IoeMjVkqJt5BGe9V77gvzFLmfSj5utQtj_0C0B0Y3LYM9nFytYpgDA_RV4HouwU-Qp7t8RwWMd"
-#TOKEN="dfjVL2OCTOOZDLE0VSBV1Q:APA91bEaotIIYMcGb3SYu8_UZn9z3MLg9oQ8eOE6OINuBP6EyT7SXq9WbFGH5GRKLIRbR-cyAV_qV2c1vLRT_i_QI7IzxgUFFkBxxl--PjpimTxc0DJTV-y7APm59nDCGpghWzTaVO3C"
+#Token은 안드로이드에 FCM보내기 위해 필요(토큰값은 안드로이드에서 로그로 토큰값 찍어서 확인후 아래에 기입, AVD껐다 키면 변경됨)
 TOKEN="f-ky31r_T5GffjE1040WfT:APA91bFvyUcoSeW0HjlpZvpLgnp9NePgQmGdRCHqNd3K7XlS8EhFPy8YTSzVvPzzpApFlFwKCfaQzrD-cYzqGuXjw5Xt-CfU0GjtCCc0MYWjqud3F0un3n5DO1UpKHyICN-sklnuLuF-"
 config={
 	"apiKey":"kk4ks2sHVBKCA5TExxZPjEiqlNmJOdUywZN4At5g",
@@ -59,7 +57,6 @@ def fire_detect():
         upper = np.array(upper, dtype="uint8")
 
         mask = cv2.inRange(hsv, lower, upper)
-        
         conts,h=cv2.findContours(mask.copy(),cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_NONE)
         for contoura in conts:
             area = cv2.contourArea(contoura)
@@ -75,11 +72,8 @@ def fire_detect():
             cv2.destroyAllWindows()
             video.release()
             break
-        #무한반복으로 불꽃연기를 감지하면서 만약 불꽃을 검출했을 때 10초에 한번씩 쉘창에 화재 감지 안내 및 사진 촬영 이벤트 지속
-        #current=time()
-        #previous=time()
-        
-        #수치가 너무 높으면 인식이 잘 안됨
+  
+        #수치를 조정하여 감지 정확도 조절(너무 높으면 감지 힘듬)
         if int(no_red) > 1500 and fire_status==True:
         #10초마다 사진을 찍음(time func이용) //all event this here
             #if fire_status==True:
@@ -91,11 +85,11 @@ def fire_detect():
             str_now_search=str(now.strftime('%Y%m%d%H%M%S'))
             filename=str_now + '.jpg'
             
-            #10초마다 실행되는 이벤트. (FCM도 추가)
+            #10초마다 실행되는 이벤트
             sendMessage(str_now)
             savePhoto(now,frame,filename)
             uploadPhoto(str_now,str_now_search,filename)
-            
+                       
             #탈출해서 시간 재야함 
             fire_status=False
             previous=time()
@@ -109,13 +103,6 @@ def fire_detect():
             if delta >10:
                 delta=0
                 fire_status=True
-                                   
-        #cv2.imshow("Detection", frame)
-        #if cv2.waitKey(1) & 0xFF == ord('q'):
-            #break
-                    
-    #q를 누르기 전 까지는 창이  안꺼짐
-    
     
 def savePhoto(now, frame,filename):
     cv2.imwrite(picture_directory+filename, frame)
@@ -145,15 +132,12 @@ def uploadPhoto(now,now_search,file):
     
     #공개 저장소 링크 디버깅 코드. (출력된 주소를 웹에 입력하면 사진뜹니다.)
     print(blob.public_url)
-    
-    
+        
     #스토리지 이미지를 public으로 접근 권한 부여하여 db에 메타정보를 연동하여 이를 이용
     #search는 앱에서 검색하거나 정렬할 때 사용됨(202108입력하면 08월 사진 다뜸)
     db.child("image_Data").child(now).child("image").set(blob.public_url)
     db.child("image_Data").child(now).child("title").set(now)
     db.child("image_Data").child(now).child("description").set(now+'에 찍힌 사진입니다.')
     db.child("image_Data").child(now).child("search").set(now_search)
-    
-    
-    
+        
 fire_detect()           
