@@ -10,7 +10,11 @@ import cv2
 import numpy as np
 import datetime
 from time import time
+<<<<<<< HEAD
 #api키는 FCM을 위해 파이어베이스에서 얻은 API키 이용
+=======
+
+>>>>>>> a8c496204c91fce4054de5261d0d3cccf14e4204
 APIKEY="AAAAalMeKts:APA91bEiB12GcGeo5W0MmzOjjmcDiR9LwrVgUxmspbWpI4eZz0LjuFIuTVxnfCbqd_IoeMjVkqJt5BGe9V77gvzFLmfSj5utQtj_0C0B0Y3LYM9nFytYpgDA_RV4HouwU-Qp7t8RwWMd"
 #Token은 안드로이드에 FCM보내기 위해 필요(토큰값은 안드로이드에서 로그로 토큰값 찍어서 확인후 아래에 기입, AVD껐다 키면 변경됨)
 TOKEN="f-ky31r_T5GffjE1040WfT:APA91bFvyUcoSeW0HjlpZvpLgnp9NePgQmGdRCHqNd3K7XlS8EhFPy8YTSzVvPzzpApFlFwKCfaQzrD-cYzqGuXjw5Xt-CfU0GjtCCc0MYWjqud3F0un3n5DO1UpKHyICN-sklnuLuF-"
@@ -72,8 +76,16 @@ def fire_detect():
             cv2.destroyAllWindows()
             video.release()
             break
+<<<<<<< HEAD
   
         #수치를 조정하여 감지 정확도 조절(너무 높으면 감지 힘듬)
+=======
+        #무한반복으로 불꽃연기를 감지하면서 만약 불꽃을 검출했을 때 10초에 한번씩 쉘창에 화재 감지 안내 및 사진 촬영 이벤트 지속
+        #current=time()
+        #previous=time()
+        
+        #아래 수치를 작게 할 수록 감지가 잘되는데 원본파일의 수치는 1만이었음,그리고 변수를 추가하여 10초 상태를 확인
+>>>>>>> a8c496204c91fce4054de5261d0d3cccf14e4204
         if int(no_red) > 1500 and fire_status==True:
         #10초마다 사진을 찍음(time func이용) //all event this here
             #if fire_status==True:
@@ -85,11 +97,21 @@ def fire_detect():
             str_now_search=str(now.strftime('%Y%m%d%H%M%S'))
             filename=str_now + '.jpg'
             
+<<<<<<< HEAD
             #10초마다 실행되는 이벤트
             sendMessage(str_now)
             savePhoto(now,frame,filename)
             uploadPhoto(str_now,str_now_search,filename)
                        
+=======
+            #10초마다 실행되는 이벤트. (푸쉬메시지도 걍 추가함(매번 화재가 발생하는게 아니라서 굳이 뺼 필요도 없음))
+            sendMessage(str_now)
+            savePhoto(now,frame,filename)
+            uploadPhoto(str_now,str_now_search,filename)
+            
+            
+            
+>>>>>>> a8c496204c91fce4054de5261d0d3cccf14e4204
             #탈출해서 시간 재야함 
             fire_status=False
             previous=time()
@@ -103,6 +125,19 @@ def fire_detect():
             if delta >10:
                 delta=0
                 fire_status=True
+<<<<<<< HEAD
+=======
+                
+                    
+        #창이 두개 뜨는게 동작이 똑같아서 한개의 창만 띄움 
+        #cv2.imshow("Detection", frame)
+        #if cv2.waitKey(1) & 0xFF == ord('q'):
+            #break
+                    
+    #q를 누르기 전 까지는 2개의 창이 절대 안꺼짐
+    #코드에서 매번 불꽃을 감지할 때마다 새 창을 띄워놓으니.. 당연히 사진이 계속 찍히고 창이 계속 뜨는 것임
+    
+>>>>>>> a8c496204c91fce4054de5261d0d3cccf14e4204
     
 def savePhoto(now, frame,filename):
     cv2.imwrite(picture_directory+filename, frame)
