@@ -11,8 +11,6 @@ import numpy as np
 import datetime
 from time import time
 
-#api키는 FCM을 위해서만 사용
-#토큰 값은 추후 안드로이드 앱으로 FCM을 날리기 위해 사용(토큰 값은 안드로이드 앱의 로그로 찍어보고 그 값을 아래에 설정)
 APIKEY="AAAAalMeKts:APA91bEiB12GcGeo5W0MmzOjjmcDiR9LwrVgUxmspbWpI4eZz0LjuFIuTVxnfCbqd_IoeMjVkqJt5BGe9V77gvzFLmfSj5utQtj_0C0B0Y3LYM9nFytYpgDA_RV4HouwU-Qp7t8RwWMd"
 #TOKEN="dfjVL2OCTOOZDLE0VSBV1Q:APA91bEaotIIYMcGb3SYu8_UZn9z3MLg9oQ8eOE6OINuBP6EyT7SXq9WbFGH5GRKLIRbR-cyAV_qV2c1vLRT_i_QI7IzxgUFFkBxxl--PjpimTxc0DJTV-y7APm59nDCGpghWzTaVO3C"
 TOKEN="f-ky31r_T5GffjE1040WfT:APA91bFvyUcoSeW0HjlpZvpLgnp9NePgQmGdRCHqNd3K7XlS8EhFPy8YTSzVvPzzpApFlFwKCfaQzrD-cYzqGuXjw5Xt-CfU0GjtCCc0MYWjqud3F0un3n5DO1UpKHyICN-sklnuLuF-"
@@ -79,7 +77,7 @@ def fire_detect():
         #current=time()
         #previous=time()
         
-        #수치가 너무 높으면 인식이 잘 안됨
+        #아래 수치를 작게 할 수록 감지가 잘되는데 원본파일의 수치는 1만이었음,그리고 변수를 추가하여 10초 상태를 확인
         if int(no_red) > 1500 and fire_status==True:
         #10초마다 사진을 찍음(time func이용) //all event this here
             #if fire_status==True:
@@ -91,10 +89,12 @@ def fire_detect():
             str_now_search=str(now.strftime('%Y%m%d%H%M%S'))
             filename=str_now + '.jpg'
             
-            #10초마다 실행되는 이벤트. (FCM도 추가)
+            #10초마다 실행되는 이벤트. (푸쉬메시지도 걍 추가함(매번 화재가 발생하는게 아니라서 굳이 뺼 필요도 없음))
             sendMessage(str_now)
             savePhoto(now,frame,filename)
             uploadPhoto(str_now,str_now_search,filename)
+            
+            
             
             #탈출해서 시간 재야함 
             fire_status=False
@@ -109,12 +109,15 @@ def fire_detect():
             if delta >10:
                 delta=0
                 fire_status=True
-                                   
+                
+                    
+        #창이 두개 뜨는게 동작이 똑같아서 한개의 창만 띄움 
         #cv2.imshow("Detection", frame)
         #if cv2.waitKey(1) & 0xFF == ord('q'):
             #break
                     
-    #q를 누르기 전 까지는 창이  안꺼짐
+    #q를 누르기 전 까지는 2개의 창이 절대 안꺼짐
+    #코드에서 매번 불꽃을 감지할 때마다 새 창을 띄워놓으니.. 당연히 사진이 계속 찍히고 창이 계속 뜨는 것임
     
     
 def savePhoto(now, frame,filename):
