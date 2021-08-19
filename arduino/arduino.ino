@@ -39,6 +39,7 @@ void setup() {
   pinMode(green_pin,OUTPUT);
   digitalWrite(red_pin,LOW);
   digitalWrite(blue_pin,HIGH);
+  digitalWrite(buzzer_pin,LOW); 
 }
 void loop() {
   int res;
@@ -62,7 +63,7 @@ void loop() {
     ratio = lowpulseoccupancy/(sampletime_ms*10.0); // Integer percentage 0=>100
     concentration = 1.1*pow(ratio,3)-3.8*pow(ratio,2)+520*ratio+0.62; // using spec sheet curve
         ugm3 = concentration*100/13000;
-        //Serial.println(ugm3);
+        
         //Serial.println(" ug/m3 [PM1.0]");
     lowpulseoccupancy = 0;
     if(res==0){
