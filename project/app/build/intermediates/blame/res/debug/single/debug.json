@@ -1,0 +1,734 @@
+[
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_sort.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-mdpi\\ic_action_sort.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_share.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_logout.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_logout.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_water.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_water.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_sort.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-hdpi\\ic_action_sort.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_left.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_left.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vie_bg2.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable\\vie_bg2.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_wall.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_wall.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_cam.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_cam.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_save.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_save.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_save.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-hdpi\\ic_action_save.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_water.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_water.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_storage.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_storage.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_co2_image.PNG.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-xxhdpi\\co2_image.PNG"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_linearshape1.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable\\linearshape1.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable\\circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_right.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_right.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_left.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_left.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fire.PNG.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable\\fire.PNG"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit_text_bg.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable\\edit_text_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_storage.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_storage.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_posts_list.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\layout\\activity_posts_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_imagebutton_custom.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable\\imagebutton_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_device.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_device.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_back.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_cam.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_cam.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_linear.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable\\linear.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vie_bg3.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable\\vie_bg3.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_back.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-xhdpi\\ic_back.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_blue_sky.jpg.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-mdpi\\blue_sky.jpg"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_fire_exist.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_fire_exist.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_right.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_right.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_baseline_call_24.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_baseline_call_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_save.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-mdpi\\ic_action_save.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vie_bg.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable\\vie_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_search.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_search.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_left.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_left.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_left.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_wall.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_wall.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_back.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-xxhdpi\\ic_back.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_sort.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_sort.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_share.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-hdpi\\ic_action_share.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_fire_exist.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_fire_exist.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_down.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_down.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vie_bg4.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable\\vie_bg4.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_right.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_right.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_post_detail.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\layout\\activity_post_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_loading.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\layout\\activity_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_loading_image.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-v24\\loading_image.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_water.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_water.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\layout_item.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_sort.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_sort.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_water.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_water.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_fire_back_1.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-v24\\fire_back_1.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\menu\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_search.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_back.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-hdpi\\ic_back.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_down.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_down.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_storage.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_storage.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_fire.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_fire.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_water.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_water.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_cam.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_cam.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_save.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_save.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_fire.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_fire.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_search.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-hdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_device.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-hdpi\\ic_device.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_down.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_down.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_linear1.PNG.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-v24\\linear1.PNG"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_wall.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-mdpi\\ic_action_wall.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_up.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_up.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_up.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_wall.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-hdpi\\ic_action_wall.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_logout.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_fire_exist.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_fire_exist.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_linearshape.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable\\linearshape.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_left.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_left.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_share.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_share.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_linear2.PNG.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-v24\\linear2.PNG"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_right.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_right.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_fire.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_fire.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_down.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_down.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_share.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-mdpi\\ic_action_share.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_cam.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_cam.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_call_24.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_call_24.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_imagebutton_custom.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-v21\\imagebutton_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_up.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_up.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_search.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-mdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_logout.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_logout.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_fire.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_fire.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_back.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_back.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_up.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_up.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_baseline_call_24.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_baseline_call_24.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_search.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_baseline_call_24.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_baseline_call_24.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_fire.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_fire.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_call_24.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_baseline_call_24.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_wall.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_wall.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable\\border.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_save.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_save.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_fire_exist.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_fire_exist.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_wall.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_wall.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_buttonshape.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable\\buttonshape.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_down.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_down.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_water.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_water.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_storage.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\layout\\activity_storage.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_cam.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_cam.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_fire_front.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-v24\\fire_front.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_up.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_up.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_sort.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_sort.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_water.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_water.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_logout.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_logout.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_device.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-xxhdpi\\ic_device.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_find.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\layout\\activity_find.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_down.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_cam.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_cam.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_logout.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_logout.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_cam.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_cam.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_logout.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_logout.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_share.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_share.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_save.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_save.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_down.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_down.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\layout_webview.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\layout\\webview.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_fire.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_fire.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_device.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-mdpi\\ic_device.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\layout_cctv_record.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\layout\\cctv_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_share.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_share.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_up.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_up.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_up.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_up.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_back.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-mdpi\\ic_back.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_storage.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_storage.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_device.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_device.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_right.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_right.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_share.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_share.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_sort.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_sort.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_fire_exist.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_fire_exist.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_fire_exist.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_fire_exist.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_storage.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_storage.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_bg.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable\\button_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_storage.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_storage.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_call_24.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_call_24.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_wall.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_wall.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_search.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_left.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_left.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_left.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_left.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_back.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_back.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_fire_exist.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_fire_exist.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_right.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_search.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\layout_row.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\layout\\row.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_fire.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_fire.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_save.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_save.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_right.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_right.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_device.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-xhdpi\\ic_device.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_sort.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_sort.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_device.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_device.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\layout\\notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_logout.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_logout.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_storage.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_storage.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_orange.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable\\orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_call_24.png.flat",
+        "source": "C:\\Users\\admin\\Desktop\\this\\2021_cap\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_call_24.png"
+    }
+]

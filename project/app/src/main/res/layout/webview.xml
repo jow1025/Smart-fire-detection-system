@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blue_sky"
+    tools:context=".CctvActivity">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           >
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="400dp"
+               android:orientation="vertical"
+               android:gravity="center"
+               >
+               <WebView
+                   android:id="@+id/cctvWeb"
+                   android:layout_width="match_parent"
+                   android:layout_height="400dp" />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="CCTV제어"
+                   android:textSize="20sp"
+                   android:textColor="#000000"
+                   android:layout_margin="5dp"
+                   />
+               <LinearLayout
+                   android:layout_width="350dp"
+                   android:layout_height="120dp"
+                   android:orientation="vertical"
+                   android:background="@drawable/linearshape"
+                   android:gravity="center"
+                   android:layout_gravity="center"
+                   >
+                   <ImageButton
+                       android:id="@+id/UpButton"
+                       android:layout_width="80dp"
+                       android:layout_height="50dp"
+                       android:background="@drawable/imagebutton_custom"
+                       android:layout_marginBottom="10dp"
+                       android:src="@drawable/ic_up"/>
+
+                   <LinearLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal"
+                       >
+                       <ImageButton
+                           android:id="@+id/LeftButton"
+                           android:layout_width="80dp"
+                           android:layout_height="50dp"
+                           android:background="@drawable/imagebutton_custom"
+                           android:src="@drawable/ic_left"
+                           android:text="Button"
+                           />
+                       <ImageButton
+                           android:id="@+id/DownButton"
+                           android:layout_width="80dp"
+                           android:layout_height="50dp"
+                           android:background="@drawable/imagebutton_custom"
+                           android:layout_marginLeft="10dp"
+                           android:layout_marginRight="10dp"
+                           android:src="@drawable/ic_down" />
+                       <ImageButton
+                           android:id="@+id/RightButton"
+                           android:layout_width="80dp"
+                           android:layout_height="50dp"
+                           android:background="@drawable/imagebutton_custom"
+                           android:src="@drawable/ic_right" />
+
+                   </LinearLayout>
+
+               </LinearLayout>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="설정 모드"
+                   android:textSize="20sp"
+                   android:textColor="#000000"
+                   android:layout_margin="5dp"
+                   />
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:gravity="center_horizontal"
+                   >
+                   <LinearLayout
+                       android:layout_width="240dp"
+                       android:layout_height="120dp"
+                       android:layout_marginTop="10dp"
+                       android:layout_marginLeft="30dp"
+                       android:background="@drawable/linearshape"
+                       android:orientation="horizontal"
+                       >
+
+                       <LinearLayout
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:orientation="vertical"
+                           android:layout_margin="10dp"
+                           >
+                           <Switch
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="LED on/off"
+                               android:id="@+id/ledswitch"
+                               android:layout_gravity="center_vertical"
+                               />
+
+                           <Switch
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="Buzzer on/off"
+                               android:id="@+id/buzzerSwitch"
+                               />
+
+
+                       </LinearLayout>
+
+                       <RadioGroup
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_margin="10dp"
+                           android:layout_weight="1"
+                           android:visibility="gone"
+                           android:id="@+id/LED_radioGroup"
+                           >
+                           <RadioButton
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="RED"
+                               android:textColor="#ffffff"
+                               android:id="@+id/led_red"
+                               />
+                           <RadioButton
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="BLU"
+                               android:textColor="#ffffff"
+                               android:id="@+id/led_blue"
+                               />
+                           <RadioButton
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="GRN"
+                               android:textColor="#ffffff"
+                               android:id="@+id/led_green"
+                               />
+
+                       </RadioGroup>
+                   </LinearLayout>
+                   <Button
+                       android:id="@+id/callButton"
+                       android:layout_width="wrap_content"
+                       android:layout_height="120dp"
+                       android:gravity="center"
+                       android:text="신고하기"
+                       android:drawableTop="@drawable/ic_baseline_call_24"
+                       android:layout_margin="10dp"
+                       android:background="@drawable/buttonshape"
+                       android:textColor="#ffffff"
+                       android:layout_gravity="center"
+                       android:padding="10dp"
+                       android:textSize="25sp" />
+               </LinearLayout>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="5dp"
+               android:orientation="horizontal"
+               android:gravity="center"
+               android:padding="5dp"
+               />
+           <!--<TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="미세먼지 차트"
+               android:textSize="20sp"
+               android:textColor="#000000"
+               android:layout_margin="5dp"
+               />
+           <com.github.mikephil.charting.charts.LineChart
+               android:id="@+id/dust_chart"
+               android:layout_width="match_parent"
+               android:layout_height="300dp"
+               android:layout_margin="10dp"
+               />-->
+
+
+           <!--<TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="온도 차트"
+               android:textSize="20sp"
+               android:textColor="#000000"
+               android:layout_margin="5dp"
+               />
+           <com.github.mikephil.charting.charts.LineChart
+               android:id="@+id/temp_chart"
+               android:layout_width="match_parent"
+               android:layout_height="300dp"
+               android:layout_margin="10dp"
+               />
+               -->
+          <!-- <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="습도 차트"
+               android:textSize="20sp"
+               android:textColor="#000000"
+               android:layout_margin="5dp"
+               />
+           <com.github.mikephil.charting.charts.LineChart
+               android:id="@+id/humid_chart"
+               android:layout_width="match_parent"
+               android:layout_height="300dp"
+               android:layout_margin="10dp"
+               />
+               -->
+       </LinearLayout>
+   </ScrollView>
+
+</LinearLayout>
