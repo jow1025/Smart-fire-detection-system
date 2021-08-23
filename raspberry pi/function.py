@@ -10,7 +10,6 @@ import cv2
 import numpy as np
 import datetime
 from time import time
-
 #api키는 FCM을 위해 파이어베이스에서 얻은 API키 이용
 APIKEY="AAAAalMeKts:APA91bEiB12GcGeo5W0MmzOjjmcDiR9LwrVgUxmspbWpI4eZz0LjuFIuTVxnfCbqd_IoeMjVkqJt5BGe9V77gvzFLmfSj5utQtj_0C0B0Y3LYM9nFytYpgDA_RV4HouwU-Qp7t8RwWMd"
 #Token은 안드로이드에 FCM보내기 위해 필요(토큰값은 안드로이드에서 로그로 토큰값 찍어서 확인후 아래에 기입, AVD껐다 키면 변경됨)
@@ -33,7 +32,6 @@ default_app = firebase_admin.initialize_app(cred, {'storageBucket': f"{PROJECT_I
 bucket = storage.bucket()  # 기본 버킷 사용
 
 video=cv2.VideoCapture(-1)
-
 fire_status=True
 #previous=time()
 delta=0
