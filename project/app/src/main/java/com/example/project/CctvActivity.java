@@ -249,21 +249,21 @@ public class CctvActivity extends AppCompatActivity{
 
 
         //gas 초기값 가져오기
-        fgas_ref=FirebaseDatabase.getInstance().getReference("data_a").child("1-set");
-        fgas_ref.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                // Get Post object and use the values to update the UI
-                String gas_data = dataSnapshot.getValue().toString();
-                Log.d("fgas", gas_data);
-                f_gas.setText(gas_data + "µg/m3" );
-            }
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-                // Getting Post failed, log a message
-                Log.w("TAG", "loadPost:onCancelled", databaseError.toException());
-            }
-        });
+//        fgas_ref=FirebaseDatabase.getInstance().getReference("data_a").child("1-set");
+//        fgas_ref.addValueEventListener(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(DataSnapshot dataSnapshot) {
+//                // Get Post object and use the values to update the UI
+//                String gas_data = dataSnapshot.getValue().toString();
+//                Log.d("fgas", gas_data);
+//                f_gas.setText(gas_data + "µg/m3" );
+//            }
+//            @Override
+//            public void onCancelled(DatabaseError databaseError) {
+//                // Getting Post failed, log a message
+//                Log.w("TAG", "loadPost:onCancelled", databaseError.toException());
+//            }
+//        });
         WebView webView = (WebView) findViewById(R.id.cctvWeb);
         String url = "http://192.168.0.11:8091/?action=stream";
         webView.loadUrl(url);
@@ -405,15 +405,16 @@ public class CctvActivity extends AppCompatActivity{
             }
         });
 
+        //8월24일 아래 주석
 
-        Gas_chart.getXAxis().setPosition(XAxis.XAxisPosition.BOTTOM);
-        Gas_chart.getAxisRight().setEnabled(false);
-        Gas_chart.getLegend().setTextColor(Color.WHITE);
-        Gas_chart.animateXY(2000, 2000);
-        Gas_chart.invalidate();
-        LineData data3 = new LineData();
-        Gas_chart.setData(data3);
-        DrawingGraph_gas();
+//        Gas_chart.getXAxis().setPosition(XAxis.XAxisPosition.BOTTOM);
+//        Gas_chart.getAxisRight().setEnabled(false);
+//        Gas_chart.getLegend().setTextColor(Color.WHITE);
+//        Gas_chart.animateXY(2000, 2000);
+//        Gas_chart.invalidate();
+//        LineData data3 = new LineData();
+//        Gas_chart.setData(data3);
+//        DrawingGraph_gas();
 
 
         //////////////////
@@ -454,112 +455,112 @@ public class CctvActivity extends AppCompatActivity{
         });
     }
 
-    private void addEntry_gas(){
-
-        data_gas=Gas_chart.getData();
-
-        if(data_gas!=null){
-            set_gas=data_gas.getDataSetByIndex(0);
-
-            if(set_gas==null){
-                set_gas=createGasSet();
-                data_gas.addDataSet(set_gas);
-            }
-
-            //데이터 가져오기
-            mgas_ref=FirebaseDatabase.getInstance().getReference("data_a").child("2-push");
-
-            ChildEventListener mChild=new ChildEventListener() {
-                @Override
-                public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-                    if(snapshot==null){
-                        return;
-                    }
-                    String dust_data = snapshot.getValue().toString();
-                    Log.d("dust", dust_data);
-                    //data_dust.addEntry(new Entry(set_dust.getEntryCount(),Float.parseFloat(dust_data)),0);
-                    data_gas.addEntry(new Entry(set_gas.getEntryCount(),Float.parseFloat(dust_data)),0);
-                    data_gas.notifyDataChanged();
-                    Gas_chart.notifyDataSetChanged();
-                    Gas_chart.setVisibleXRangeMaximum(500);
-                    Gas_chart.moveViewToX(data_gas.getDataSetCount());
-
-
-                    /////////////
-
-                }
-
-                @Override
-                public void onChildChanged(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-
-                }
-                @Override
-                public void onChildRemoved(@NonNull DataSnapshot snapshot) {
-
-                }
-                @Override
-                public void onChildMoved(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-
-                }
-                @Override
-                public void onCancelled(@NonNull DatabaseError error) {
-
-                }
-            };
-
-
-            mgas_ref.addChildEventListener(mChild);
-        }
-    }
-
-
-
-    private LineDataSet createGasSet(){
-        LineDataSet set = new LineDataSet(null, "Gas Data");
-        set.setFillAlpha(110);
-        set.setFillColor(Color.parseColor("#d7e7fa"));
-        set.setColor(Color.parseColor("#0B80C9"));
-        set.setCircleColor(Color.parseColor("#FFA1B4DC"));
-        set.setCircleHoleColor(Color.BLUE);
-        set.setValueTextColor(Color.WHITE);
-        set.setDrawValues(false); set.setLineWidth(2);
-        set.setCircleRadius(6); set.setDrawCircleHole(false);
-        set.setDrawCircles(false); set.setValueTextSize(9f);
-        set.setDrawFilled(true);
-        set.setAxisDependency(YAxis.AxisDependency.LEFT);
-        set.setHighLightColor(Color.rgb(244, 117, 117));
-        set.setLabel("ppm");
-        set.setAxisDependency(YAxis.AxisDependency.LEFT);
-        set.setHighLightColor(Color.rgb(244, 117, 117));
-
-        return set;
-    }
-
-    private void DrawingGraph_gas(){
-        if(gas_thread!=null){
-            gas_thread.interrupt();
-        }
-        final Runnable runnable = new Runnable() {
-            @Override public void run() {
-                addEntry_gas();
-            }
-        };
-
-        gas_thread=new Thread(new Runnable(){
-            @Override
-            public void run() {
-                while(true){
-                    runOnUiThread(runnable);
-                    try {
-                        Thread.sleep(10000);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                }
-            }
-        });
-        gas_thread.start();
-    }
+//    private void addEntry_gas(){
+//
+//        data_gas=Gas_chart.getData();
+//
+//        if(data_gas!=null){
+//            set_gas=data_gas.getDataSetByIndex(0);
+//
+//            if(set_gas==null){
+//                set_gas=createGasSet();
+//                data_gas.addDataSet(set_gas);
+//            }
+//
+//            //데이터 가져오기
+//            mgas_ref=FirebaseDatabase.getInstance().getReference("data_a").child("2-push");
+//
+//            ChildEventListener mChild=new ChildEventListener() {
+//                @Override
+//                public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+//                    if(snapshot==null){
+//                        return;
+//                    }
+//                    String dust_data = snapshot.getValue().toString();
+//                    Log.d("dust", dust_data);
+//                    //data_dust.addEntry(new Entry(set_dust.getEntryCount(),Float.parseFloat(dust_data)),0);
+//                    data_gas.addEntry(new Entry(set_gas.getEntryCount(),Float.parseFloat(dust_data)),0);
+//                    data_gas.notifyDataChanged();
+//                    Gas_chart.notifyDataSetChanged();
+//                    Gas_chart.setVisibleXRangeMaximum(500);
+//                    Gas_chart.moveViewToX(data_gas.getDataSetCount());
+//
+//
+//                    /////////////
+//
+//                }
+//
+//                @Override
+//                public void onChildChanged(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+//
+//                }
+//                @Override
+//                public void onChildRemoved(@NonNull DataSnapshot snapshot) {
+//
+//                }
+//                @Override
+//                public void onChildMoved(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+//
+//                }
+//                @Override
+//                public void onCancelled(@NonNull DatabaseError error) {
+//
+//                }
+//            };
+//
+//
+//            mgas_ref.addChildEventListener(mChild);
+//        }
+//    }
+//
+//
+//
+//    private LineDataSet createGasSet(){
+//        LineDataSet set = new LineDataSet(null, "Gas Data");
+//        set.setFillAlpha(110);
+//        set.setFillColor(Color.parseColor("#d7e7fa"));
+//        set.setColor(Color.parseColor("#0B80C9"));
+//        set.setCircleColor(Color.parseColor("#FFA1B4DC"));
+//        set.setCircleHoleColor(Color.BLUE);
+//        set.setValueTextColor(Color.WHITE);
+//        set.setDrawValues(false); set.setLineWidth(2);
+//        set.setCircleRadius(6); set.setDrawCircleHole(false);
+//        set.setDrawCircles(false); set.setValueTextSize(9f);
+//        set.setDrawFilled(true);
+//        set.setAxisDependency(YAxis.AxisDependency.LEFT);
+//        set.setHighLightColor(Color.rgb(244, 117, 117));
+//        set.setLabel("ppm");
+//        set.setAxisDependency(YAxis.AxisDependency.LEFT);
+//        set.setHighLightColor(Color.rgb(244, 117, 117));
+//
+//        return set;
+//    }
+//
+//    private void DrawingGraph_gas(){
+//        if(gas_thread!=null){
+//            gas_thread.interrupt();
+//        }
+//        final Runnable runnable = new Runnable() {
+//            @Override public void run() {
+//                addEntry_gas();
+//            }
+//        };
+//
+//        gas_thread=new Thread(new Runnable(){
+//            @Override
+//            public void run() {
+//                while(true){
+//                    runOnUiThread(runnable);
+//                    try {
+//                        Thread.sleep(10000);
+//                    } catch (InterruptedException e) {
+//                        e.printStackTrace();
+//                    }
+//                }
+//            }
+//        });
+//        gas_thread.start();
+//    }
 }
 
 

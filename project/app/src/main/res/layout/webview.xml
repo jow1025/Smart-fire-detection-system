@@ -108,7 +108,7 @@
                        android:layout_width="240dp"
                        android:layout_height="120dp"
                        android:layout_marginTop="10dp"
-                       android:layout_marginLeft="30dp"
+                       android:layout_marginLeft="10dp"
                        android:background="@drawable/linearshape"
                        android:orientation="horizontal"
                        >
@@ -174,14 +174,14 @@
                        android:layout_width="wrap_content"
                        android:layout_height="120dp"
                        android:gravity="center"
-                       android:text="신고하기"
+                       android:text="신고\n하기"
                        android:drawableTop="@drawable/ic_baseline_call_24"
                        android:layout_margin="10dp"
                        android:background="@drawable/buttonshape"
                        android:textColor="#ffffff"
                        android:layout_gravity="center"
                        android:padding="10dp"
-                       android:textSize="25sp" />
+                       android:textSize="23sp" />
                </LinearLayout>
            </LinearLayout>
 

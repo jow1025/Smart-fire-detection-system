@@ -1,7 +1,9 @@
 package com.example.project;
 
 import android.Manifest;
+import android.app.AlertDialog;
 import android.app.WallpaperManager;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
@@ -124,6 +126,29 @@ public class PostDetailActivity extends AppCompatActivity {
                 }
             }
         });
+        mWallBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(PostDetailActivity.this);
+                builder.setTitle("신고");
+                builder.setMessage("신고하시겠습니까?");
+                builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:119"));
+                        startActivity(intent);
+                    }
+                });
+                builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                });
+                AlertDialog alertDialog = builder.create();
+                alertDialog.show();
+            }
+        });
         //share btn click handle
         mShareBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -132,12 +157,12 @@ public class PostDetailActivity extends AppCompatActivity {
             }
         });
         //set wallpaper btn click handle
-        mWallBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                setImgWallpaper();
-            }
-        });
+//        mWallBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                setImgWallpaper();
+//            }
+//        });
 
     }
 

@@ -36,27 +36,27 @@
 18-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\5e8b22dd0e8c883f2ba1f96e7b8f88a5\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:26:22-107
 19
 20    <application
-20-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:10:5-57:19
+20-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:10:5-59:19
 21        android:allowBackup="true"
-21-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:12:9-35
+21-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:13:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 22-->[androidx.core:core:1.3.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c02b395648618b23d4259efa5af8033d\core-1.3.1\AndroidManifest.xml:24:18-86
 23        android:debuggable="true"
 24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:13:9-43
+24-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:14:9-43
 25        android:label="@string/app_name"
-25-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:14:9-41
+25-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:15:9-41
 26        android:requestLegacyExternalStorage="true"
 26-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:11:9-52
 27        android:roundIcon="@mipmap/ic_launcher_round"
-27-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:15:9-54
+27-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:16:9-54
 28        android:supportsRtl="true"
-28-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:16:9-35
+28-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:17:9-35
 29        android:testOnly="true"
 30        android:theme="@style/AppTheme"
-30-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:18:9-40
+30-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:19:9-40
 31        android:usesCleartextTraffic="true" >
-31-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:17:9-44
+31-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:18:9-44
 32
 33        <!-- <activity android:name=".MainActivity"> -->
 34        <!-- <intent-filter> -->
@@ -68,17 +68,17 @@
 40        <!-- </activity> -->
 41
 42        <activity android:name="com.example.project.loadingActivity" >
-42-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:27:9-32:20
-42-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:27:19-50
+42-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:29:9-34:20
+42-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:29:19-50
 43            <intent-filter>
-43-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:28:13-31:29
+43-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:30:13-33:29
 44                <action android:name="android.intent.action.MAIN" />
-44-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:29:17-69
-44-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:29:25-66
+44-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:31:17-69
+44-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:31:25-66
 45
 46                <category android:name="android.intent.category.LAUNCHER" />
-46-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:30:17-77
-46-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:30:27-74
+46-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:32:17-77
+46-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:32:27-74
 47            </intent-filter>
 48        </activity>
 49        <!-- <activity android:name=".PostsListActivity"> -->
@@ -90,44 +90,44 @@
 55        <!-- </intent-filter> -->
 56        <!-- </activity> -->
 57        <activity android:name="com.example.project.PostDetailActivity" />
-57-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:40:9-55
-57-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:40:19-53
+57-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:42:9-55
+57-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:42:19-53
 58        <activity android:name="com.example.project.PostsListActivity" />
-58-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:41:9-54
-58-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:41:19-52
+58-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:43:9-54
+58-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:43:19-52
 59        <activity android:name="com.example.project.LoginActivity" />
-59-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:42:9-51
-59-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:42:19-48
+59-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:44:9-51
+59-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:44:19-48
 60        <activity android:name="com.example.project.FindActivity" />
-60-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:43:9-49
-60-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:43:19-47
+60-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:45:9-49
+60-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:45:19-47
 61        <activity android:name="com.example.project.ProfileActivity" />
-61-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:44:9-52
-61-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:44:19-50
+61-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:46:9-52
+61-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:46:19-50
 62        <activity android:name="com.example.project.CctvActivity" />
-62-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:45:9-49
-62-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:45:19-47
+62-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:47:9-49
+62-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:47:19-47
 63        <activity android:name="com.example.project.StorageActivity" />
-63-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:46:9-52
-63-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:46:19-50
+63-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:48:9-52
+63-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:48:19-50
 64        <activity android:name="com.example.project.ImageAdapter" />
-64-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:47:9-49
-64-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:47:19-47
+64-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:49:9-49
+64-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:49:19-47
 65        <activity android:name="com.example.project.MainActivity" />
-65-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:48:9-49
-65-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:48:19-47
+65-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:50:9-49
+65-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:50:19-47
 66        <activity android:name="com.example.project.DataActivity" />
-66-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:49:9-49
-66-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:49:19-47
+66-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:51:9-49
+66-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:51:19-47
 67        <!-- 5월12일 추가 FCM을 위한 -->
 68        <service android:name="com.example.project.MyFirebaseMessagingService" >
-68-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:51:9-55:19
-68-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:51:18-60
+68-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:53:9-57:19
+68-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:53:18-60
 69            <intent-filter>
-69-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:52:13-54:29
+69-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:54:13-56:29
 70                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-70-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:53:17-78
-70-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:53:25-75
+70-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:55:17-78
+70-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:55:25-75
 71            </intent-filter>
 72        </service>
 73
@@ -317,10 +317,10 @@
 173            android:exported="false" >
 173-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\974c5d858df8d91a559f4f677c402600\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:44:13-37
 174            <intent-filter android:priority="-500" >
-174-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:52:13-54:29
+174-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:54:13-56:29
 175                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-175-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:53:17-78
-175-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:53:25-75
+175-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:55:17-78
+175-->C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:55:25-75
 176            </intent-filter>
 177        </service>
 178

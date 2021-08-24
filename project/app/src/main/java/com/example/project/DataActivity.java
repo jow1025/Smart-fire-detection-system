@@ -172,10 +172,12 @@ public class DataActivity extends AppCompatActivity{
         set.setDrawCircles(false); set.setValueTextSize(9f);
         set.setDrawFilled(true);
         set.setAxisDependency(YAxis.AxisDependency.LEFT);
+
         set.setHighLightColor(Color.rgb(244, 117, 117));
         set.setLabel("ppm");
-        set.setAxisDependency(YAxis.AxisDependency.LEFT);
-        set.setHighLightColor(Color.rgb(244, 117, 117));
+
+       // set.setAxisDependency(YAxis.AxisDependency.LEFT);
+       // set.setHighLightColor(Color.rgb(244, 117, 117));
 
         return set;
     }
@@ -207,6 +209,7 @@ public class DataActivity extends AppCompatActivity{
     }
     @Override
     public void onBackPressed() {
+        finish();
         startActivity(new Intent(this, ProfileActivity.class));
     }
 }

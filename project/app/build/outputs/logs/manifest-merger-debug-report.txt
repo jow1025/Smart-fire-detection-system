@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:2:1-59:12
+ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:2:1-61:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\cb330e222b6b30007114ce916597117a\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [com.firebaseui:firebase-ui-database:0.4.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2b09053c8a0ebf2af879c724a9b1412b\jetified-firebase-ui-database-0.4.0\AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a15f2fb51ecc70570e5b0ae745b8cb67\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -74,20 +74,20 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\admin\.gradle\caches\transform
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\053b03371a3d309d3b702ce33575a36b\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b3abdc7f518392dc2fd84791f07facc6\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\47153c853056b190cc4263926f6effd9\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:2:1-61:12
 	package
 		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:2:1-59:12
+		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:2:1-61:12
 		INJECTED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:2:1-59:12
+		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:2:1-61:12
 		INJECTED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:2:11-69
@@ -162,7 +162,7 @@ ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidMani
 	android:name
 		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:8:22-77
 application
-ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:10:5-57:19
+ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:10:5-59:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\cb330e222b6b30007114ce916597117a\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\cb330e222b6b30007114ce916597117a\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\145b963f90c8e7ce409780562ef5c0a8\jetified-firebase-auth-20.0.4\AndroidManifest.xml:26:5-81:19
@@ -226,83 +226,83 @@ MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c02b395648618b23d4259efa5af8033d\core-1.3.1\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:15:9-41
 	android:roundIcon
-		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:16:9-54
 	android:icon
-		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:13:9-43
+		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:18:9-40
+		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:19:9-40
 	android:usesCleartextTraffic
-		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:17:9-44
+		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:18:9-44
 activity#com.example.project.loadingActivity
-ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:27:9-32:20
+ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:29:9-34:20
 	android:name
-		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:27:19-50
+		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:29:19-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:28:13-31:29
+ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:30:13-33:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:29:17-69
+ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:29:25-66
+		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:32:27-74
 activity#com.example.project.PostDetailActivity
-ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:40:9-55
+ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:42:9-55
 	android:name
-		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:40:19-53
+		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:42:19-53
 activity#com.example.project.PostsListActivity
-ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:41:9-54
+ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:43:9-54
 	android:name
-		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:41:19-52
+		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:43:19-52
 activity#com.example.project.LoginActivity
-ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:42:9-51
+ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:44:9-51
 	android:name
-		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:42:19-48
+		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:44:19-48
 activity#com.example.project.FindActivity
-ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:43:9-49
-	android:name
-		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:43:19-47
-activity#com.example.project.ProfileActivity
-ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:44:9-52
-	android:name
-		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:44:19-50
-activity#com.example.project.CctvActivity
 ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:45:9-49
 	android:name
 		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:45:19-47
-activity#com.example.project.StorageActivity
+activity#com.example.project.ProfileActivity
 ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:46:9-52
 	android:name
 		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:46:19-50
-activity#com.example.project.ImageAdapter
+activity#com.example.project.CctvActivity
 ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:47:9-49
 	android:name
 		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:47:19-47
-activity#com.example.project.MainActivity
-ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:48:9-49
+activity#com.example.project.StorageActivity
+ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:48:9-52
 	android:name
-		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:48:19-47
-activity#com.example.project.DataActivity
+		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:48:19-50
+activity#com.example.project.ImageAdapter
 ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:49:9-49
 	android:name
 		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:49:19-47
+activity#com.example.project.MainActivity
+ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:50:9-49
+	android:name
+		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:50:19-47
+activity#com.example.project.DataActivity
+ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:51:9-49
+	android:name
+		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:51:19-47
 service#com.example.project.MyFirebaseMessagingService
-ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:51:9-55:19
+ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:53:9-57:19
 	android:name
-		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:51:18-60
+		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:53:18-60
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:52:13-54:29
+ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:54:13-56:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:53:17-78
+ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:55:17-78
 	android:name
-		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:53:25-75
+		ADDED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml:55:25-75
 uses-sdk
 INJECTED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\AndroidManifest.xml

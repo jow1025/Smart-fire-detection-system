@@ -107,4 +107,5 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             startActivity(new Intent(this, MainActivity.class)); //추가해 줄 로그인 액티비티
         }
     }
+
 }

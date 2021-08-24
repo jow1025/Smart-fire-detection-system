@@ -40,10 +40,10 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
     //view objects
     private TextView textViewUserEmail;
     private ImageButton buttonLogout;
-    private TextView textviewDelete;
-    private ImageButton event_stream;
-    private ImageButton storage_button;
-    private ImageButton event_data;
+   // private TextView textviewDelete;
+    private ImageButton buttonCctv;
+    private ImageButton buttonStorage;
+    private ImageButton buttonAnal;
 
     private TextView timeStatus;
     private TextView nowStatus;
@@ -57,11 +57,11 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
 
         //initializing views
        // textViewUserEmail = (TextView) findViewById(R.id.textviewUserEmail);
-        buttonLogout = (ImageButton) findViewById(R.id.buttonLogout);
-        textviewDelete = (TextView) findViewById(R.id.textviewDelete);
-        event_stream=(ImageButton) findViewById(R.id.event_stream);
-        storage_button=(ImageButton) findViewById(R.id.storage_button);
-        event_data=(ImageButton)findViewById(R.id.event_Data);
+        buttonLogout = (ImageButton) findViewById(R.id.logout);
+       // textviewDelete = (TextView) findViewById(R.id.textviewDelete);
+        buttonCctv=(ImageButton) findViewById(R.id.cctv);
+        buttonStorage=(ImageButton) findViewById(R.id.storage);
+        buttonAnal=(ImageButton)findViewById(R.id.analysis);
 
         // evnet_storage=(Button)findViewById(R.id.event_storage);
         //initializing firebase authentication object
@@ -76,7 +76,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 String gas_data=snapshot.getValue().toString();
                 Log.d("fgas",gas_data);
-                dataStatus.setText("CO2: "+gas_data+"ug/m3");
+                dataStatus.setText(gas_data+"ug/m3");
                 if(Integer.parseInt(gas_data)>=target){
                     nowStatus.setText("나쁨(BAD)");
                     nowStatus.setTextColor(Color.RED);
@@ -109,10 +109,10 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
 
         //logout button event
         buttonLogout.setOnClickListener(this);
-        textviewDelete.setOnClickListener(this);
-        event_stream.setOnClickListener(this);
-        storage_button.setOnClickListener(this);
-        event_data.setOnClickListener(this);
+        //textviewDelete.setOnClickListener(this);
+        buttonCctv.setOnClickListener(this);
+        buttonStorage.setOnClickListener(this);
+        buttonAnal.setOnClickListener(this);
 
 
     }
@@ -121,7 +121,9 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         final Handler handler = new Handler() {
             @Override
             public void handleMessage(@NonNull Message msg) {
+                timeStatus.setTextColor(Color.GRAY);
                 timeStatus.setText(DateFormat.getDateTimeInstance().format(new Date()));
+
             }
         };
         Runnable task = new Runnable() {
@@ -147,43 +149,43 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
             startActivity(new Intent(this, LoginActivity.class));
         }
         //회원탈퇴를 클릭하면 회원정보를 삭제한다. 삭제전에 컨펌창을 하나 띄워야 겠다.
-        if(view == textviewDelete) {
-            AlertDialog.Builder alert_confirm = new AlertDialog.Builder(ProfileActivity.this);
-            alert_confirm.setMessage("정말 계정을 삭제 할까요?").setCancelable(false).setPositiveButton("확인", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialogInterface, int i) {
-                            FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                            user.delete()
-                                    .addOnCompleteListener(new OnCompleteListener<Void>() {
-                                        @Override
-                                        public void onComplete(@NonNull Task<Void> task) {
-                                            Toast.makeText(ProfileActivity.this, "계정이 삭제 되었습니다.", Toast.LENGTH_LONG).show();
-                                            finish();
-                                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
-                                        }
-                                    });
-                        }
-                    }
-            );
-            alert_confirm.setNegativeButton("취소", new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialogInterface, int i) {
-                    Toast.makeText(ProfileActivity.this, "취소", Toast.LENGTH_LONG).show();
-                }
-            });
-            alert_confirm.show();
-        }
-        if(view==event_stream) {
+//        if(view == textviewDelete) {
+//            AlertDialog.Builder alert_confirm = new AlertDialog.Builder(ProfileActivity.this);
+//            alert_confirm.setMessage("정말 계정을 삭제 할까요?").setCancelable(false).setPositiveButton("확인", new DialogInterface.OnClickListener() {
+//                        @Override
+//                        public void onClick(DialogInterface dialogInterface, int i) {
+//                            FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+//                            user.delete()
+//                                    .addOnCompleteListener(new OnCompleteListener<Void>() {
+//                                        @Override
+//                                        public void onComplete(@NonNull Task<Void> task) {
+//                                            Toast.makeText(ProfileActivity.this, "계정이 삭제 되었습니다.", Toast.LENGTH_LONG).show();
+//                                            finish();
+//                                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+//                                        }
+//                                    });
+//                        }
+//                    }
+//            );
+//            alert_confirm.setNegativeButton("취소", new DialogInterface.OnClickListener() {
+//                @Override
+//                public void onClick(DialogInterface dialogInterface, int i) {
+//                    Toast.makeText(ProfileActivity.this, "취소", Toast.LENGTH_LONG).show();
+//                }
+//            });
+//            alert_confirm.show();
+//        }
+        if(view==buttonCctv) {
             //TODO
             startActivity(new Intent(this, CctvActivity.class)); //추가해 줄  액티비티
 
         }
-        if(view==storage_button){
+        if(view==buttonStorage){
             finish();
             //startActivity(new Intent(this, StorageActivity.class));
             startActivity(new Intent(this,PostsListActivity.class));
         }
-        if(view==event_data){
+        if(view==buttonAnal){
             finish();
             startActivity(new Intent(this, DataActivity.class));
         }

@@ -200,6 +200,12 @@ public class PostsListActivity extends AppCompatActivity {
         mRecyclerView.setAdapter(firebaseRecyclerAdapter);
     }
 
+    @Override
+    public void onBackPressed() {
+        finish();
+       startActivity(new Intent(this,ProfileActivity.class));
+
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

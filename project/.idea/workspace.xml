@@ -2,7 +2,16 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <device id="pixel_xl" />
+        <device id="pixel_3a" />
+        <device id="pixel_3_xl" />
+        <device id="Nexus 6" />
+        <device id="pixel" />
+        <device id="pixel_3a_xl" />
+        <device id="pixel_3" />
+        <device id="Nexus 6P" />
+      </config>
     </shared>
   </component>
   <component name="AndroidLogFilters">
@@ -131,7 +140,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -139,18 +148,18 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\AndroidStudioProjects\Cap_project\project\app\src\main\res\drawable-xxhdpi" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.project" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\res\drawable" />
       <recent name="C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\res\drawable-v24" />
       <recent name="C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\res\drawable-mdpi" />
       <recent name="C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\res\layout" />
       <recent name="C:\Users\admin\Desktop\this\2021_cap\project\app\src\main\res\drawable-hdpi" />
-      <recent name="C:\Users\admin\Desktop\project\app\src\main\res\drawable-mdpi" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.example.project" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\AndroidStudioProjects\Cap_project\project\app\src\main\res\drawable-xxhdpi" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.app">
@@ -376,10 +385,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="722" y="71" key="#Auto_Import/0.0.1536.824@0.0.1536.824" timestamp="1629394775876" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1629386999054">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1629743127385">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1629386999054" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1629743127385" />
     <state x="549" y="279" width="437" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1624483432523">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -392,30 +401,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="344" y="318" key="AndroidCreateResourceFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1629387050084" />
-    <state x="626" y="225" key="AndroidCreateXmlResourceDialog" timestamp="1620757871713">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="626" y="225" key="AndroidCreateXmlResourceDialog/0.0.1536.824@0.0.1536.824" timestamp="1620757871713" />
     <state x="933" y="153" key="FileChooserDialogImpl" timestamp="1629180999549">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="933" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1629180999549" />
-    <state width="1491" height="256" key="GridCell.Tab.0.bottom" timestamp="1629384946319">
+    <state width="1491" height="210" key="GridCell.Tab.0.bottom" timestamp="1629787851036">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629384946319" />
-    <state width="1491" height="256" key="GridCell.Tab.0.center" timestamp="1629384946319">
+    <state width="1491" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629787851036" />
+    <state width="1491" height="210" key="GridCell.Tab.0.center" timestamp="1629787851036">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="256" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1629384946319" />
-    <state width="1491" height="256" key="GridCell.Tab.0.left" timestamp="1629384946319">
+    <state width="1491" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1629787851036" />
+    <state width="1491" height="210" key="GridCell.Tab.0.left" timestamp="1629787851035">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="256" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1629384946319" />
-    <state width="1491" height="256" key="GridCell.Tab.0.right" timestamp="1629384946319">
+    <state width="1491" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1629787851035" />
+    <state width="1491" height="210" key="GridCell.Tab.0.right" timestamp="1629787851036">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="256" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1629384946319" />
+    <state width="1491" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1629787851036" />
     <state width="1491" height="256" key="GridCell.Tab.1.bottom" timestamp="1629384919124">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -440,10 +445,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="569" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1629427610421" />
-    <state x="518" y="104" width="581" height="630" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1624442342921">
+    <state x="518" y="104" width="581" height="630" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1629739919125">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="518" y="104" width="581" height="630" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.824@0.0.1536.824" timestamp="1624442342921" />
+    <state x="518" y="104" width="581" height="630" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.824@0.0.1536.824" timestamp="1629739919125" />
     <state x="365" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1628947816019">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -452,9 +457,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="426" y="189" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1622709428139" />
-    <state x="426" y="65" width="672" height="676" key="search.everywhere.popup" timestamp="1629380398607">
+    <state x="426" y="65" width="672" height="676" key="search.everywhere.popup" timestamp="1629744070960">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="426" y="65" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1629380398607" />
+    <state x="426" y="65" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1629744070960" />
   </component>
 </project>

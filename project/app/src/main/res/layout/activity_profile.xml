@@ -236,129 +236,230 @@
 
 
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/orange"
+<!--        <ImageView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@drawable/orange"-->
 
-            android:src="@drawable/fire_front"/>
+<!--            android:src="@drawable/fire_front"/>-->
     <TextView
         android:id="@+id/time_text"
-        android:layout_width="389dp"
-        android:layout_height="117dp"
+        android:layout_width="389dip"
+        android:layout_height="117dip"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="180dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginRight="12dp"
+        android:layout_marginStart="6dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="50dip"
+        android:layout_marginEnd="12dip"
+        android:layout_marginRight="12dip"
         android:background="@drawable/rect"
         android:gravity="center"
+        android:textStyle="bold"
+
         android:text="-"
         android:textColor="@android:color/black"
-        android:textSize="30sp" />
+        android:textSize="35sp" />
 
     <TextView
         android:id="@+id/data_text"
-        android:layout_width="389dp"
-        android:layout_height="117dp"
+        android:layout_width="344dp"
+        android:layout_height="110dp"
         android:layout_below="@+id/status_text"
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginRight="12dp"
+        android:layout_marginStart="6dip"
+        android:layout_marginLeft="55dp"
+
+        android:layout_marginTop="30dip"
+        android:layout_marginEnd="12dip"
+        android:layout_marginRight="12dip"
         android:background="@drawable/rect"
         android:gravity="center"
+
         android:text="-"
         android:textColor="@android:color/black"
-        android:textSize="30sp" />
+
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/status_text"
-        android:layout_width="389dp"
-        android:layout_height="117dp"
+        android:layout_width="344dip"
+        android:layout_height="110dip"
         android:layout_below="@+id/time_text"
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginRight="12dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="12dip"
+        android:layout_marginRight="12dip"
         android:background="@drawable/rect"
         android:gravity="center"
         android:text="-"
         android:textColor="@android:color/black"
-        android:textSize="30sp" />
-     <ImageView
-        android:id="@+id/dustLogo"
-        android:src="@drawable/ic_action_time"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignStart="@+id/time_text"
-        android:layout_alignLeft="@+id/time_text"
-        android:layout_alignTop="@+id/time_text"
-        android:layout_marginStart="15dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="29dp" />
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/daLogo"
         android:src="@drawable/ic_action_gas"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
         android:layout_alignStart="@+id/status_text"
         android:layout_alignLeft="@+id/status_text"
         android:layout_alignTop="@+id/status_text"
-        android:layout_marginStart="15dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="29dp" />
+        android:layout_marginStart="15dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="29dip" />
 
     <ImageView
         android:id="@+id/gasLogo"
-        android:src="@drawable/ic_action_gas"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:src="@drawable/ic_action_cloud"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
         android:layout_alignStart="@+id/data_text"
         android:layout_alignLeft="@+id/data_text"
         android:layout_alignTop="@+id/data_text"
-        android:layout_marginStart="15dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="29dp" />
+        android:layout_marginStart="15dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="29dip" />
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="62dip"
+        android:layout_height="62dip"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dip"
+        android:layout_marginLeft="30dip"
+        android:layout_marginTop="470dip"
+        android:layout_marginBottom="0dip"
         android:id="@+id/storage"
         android:src="@drawable/ic_action_storage"
         android:layout_below="@+id/data_text"
-        android:background="@drawable/oval"/>
+        android:background="@drawable/circle" />
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="62dip"
+        android:layout_height="62dip"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dip"
+        android:layout_marginLeft="22dip"
+        android:layout_marginTop="470dip"
+        android:layout_marginBottom="0dip"
+        android:layout_toEndOf="@+id/storage"
+        android:layout_toRightOf="@+id/storage"
         android:id="@+id/analysis"
         android:src="@drawable/ic_action_anal"
         android:layout_below="@+id/data_text"
-        android:background="@drawable/oval"/>
+        android:background="@drawable/circle"/>
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="62dip"
+        android:layout_height="62dip"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dip"
+        android:layout_marginLeft="22dip"
+        android:layout_marginTop="470dip"
+        android:layout_toEndOf="@+id/analysis"
+        android:layout_toRightOf="@+id/analysis"
         android:id="@+id/cctv"
         android:src="@drawable/ic_action_cctv"
         android:layout_below="@+id/data_text"
-        android:background="@drawable/oval"/>
+        android:background="@drawable/circle"/>
+
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/logout"
-        android:src="@drawable/ic_action_logout"
+        android:layout_width="62dip"
+        android:layout_height="62dip"
         android:layout_below="@+id/data_text"
-        android:background="@drawable/oval"/>
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="22dip"
+        android:layout_marginLeft="22dip"
+        android:layout_marginTop="470dip"
+        android:layout_marginEnd="24dip"
+        android:layout_marginRight="30dip"
+        android:layout_toEndOf="@+id/cctv"
+        android:layout_toRightOf="@+id/cctv"
+
+        android:background="@drawable/circle"
+        android:src="@drawable/ic_action_logout" />
+
+    <TextView
+        android:id="@+id/storage_text"
+        android:layout_width="85dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/storage"
+
+        android:layout_alignEnd="@+id/storage"
+        android:layout_alignRight="@+id/storage"
+        android:layout_marginStart="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="9dip"
+        android:layout_marginEnd="-8dp"
+        android:layout_marginRight="-8dp"
+        android:gravity="center"
+        android:text="Storage"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/anal_text"
+        android:layout_width="85dip"
+        android:layout_height="25dip"
+        android:layout_below="@+id/analysis"
+
+        android:layout_alignEnd="@+id/analysis"
+        android:layout_alignRight="@+id/analysis"
+
+        android:layout_marginTop="9dip"
+
+        android:layout_marginEnd="-11dp"
+        android:layout_marginRight="-11dp"
+        android:gravity="center"
+        android:text="Analysis"
+        android:textSize="17dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cctv_text"
+        android:layout_width="85dip"
+        android:layout_height="25dip"
+        android:layout_below="@+id/cctv"
+
+        android:layout_alignEnd="@+id/cctv"
+        android:layout_alignRight="@+id/cctv"
+
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="-8dp"
+        android:layout_marginRight="-8dp"
+        android:gravity="center"
+        android:text="CCTV"
+        android:textSize="17dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/logout_text"
+        android:layout_width="85dip"
+        android:layout_height="25dip"
+        android:layout_below="@+id/logout"
+
+        android:layout_alignEnd="@+id/logout"
+        android:layout_alignRight="@+id/logout"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="-9dp"
+        android:layout_marginRight="-9dp"
+        android:gravity="center"
+        android:text="Logout"
+        android:textSize="17dip"
+        android:textStyle="bold" />
+
 </RelativeLayout>
