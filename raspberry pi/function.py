@@ -33,12 +33,12 @@ bucket = storage.bucket()  # 기본 버킷 사용
 
 video=cv2.VideoCapture(-1)
 fire_status=True
-#previous=time()
+previous=time()
 delta=0
 
 picture_directory = "/home/pi/image_store/"
 def fire_detect():
-    global fire_status,current,delta
+    global fire_status,current,delta,previous
     
     #감시는 무한 반복 하되 10초마다 사진을 찍음 
     while True:
